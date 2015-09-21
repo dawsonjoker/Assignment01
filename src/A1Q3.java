@@ -62,7 +62,9 @@ public class A1Q3 {
         karel.turnLeft();
         karel.turnLeft();
         
+        //Karel plants the flag at the top of the mountain and descends
         karel.move();
+        karel.putThing();
         karel.move();
         karel.turnLeft();
         karel.turnLeft();
